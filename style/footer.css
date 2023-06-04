@@ -1,0 +1,39 @@
+.footer__wraper {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .nav__footer_list {
+    align-items: center;
+    gap: 30px; 
+    display: flex;
+  }
+  
+  .nav__footer_link a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  
+  .nav__footer {
+    justify-content: space-between;
+    padding: 80px 0;
+    align-items: center;
+    display: flex;
+  }
+  
+  .visa {
+    margin-right: 30px;
+  }
+
+
+
+@media screen and (max-width:375px) {
+ .nav__footer {
+  flex-direction: column;
+  gap: 15px;
+ }
+}

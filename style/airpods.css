@@ -1,0 +1,31 @@
+.airpods__wrap {
+    align-items: center;
+    gap: 30px;
+    display: flex;
+  }
+  
+  .airpods__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 538px;
+  }
+
+  .airpods {
+    padding: 50px 0;
+  }
+
+  .airpods__wrap img {
+    width: 50%;
+  }
+
+
+
+@media screen and (max-width:772px) {
+   .airpods__wrap {
+    flex-direction: column;
+   }
+}

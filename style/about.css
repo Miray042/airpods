@@ -1,0 +1,32 @@
+.about__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: var(--white);
+    max-width: 538px;
+  }
+  
+  .about__wrap {
+    gap: 30px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .about {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .about__wrap img {
+    width: 50%;
+  }
+
+
+
+@media screen and (max-width:772px) {
+    .about__wrap {
+      flex-direction: column;
+    }
+}

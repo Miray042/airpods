@@ -1,0 +1,64 @@
+.main__content {
+    background-image: url('../img/Header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .main__title {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.25em;
+    line-height: 75px;
+    color: var(--white);
+    margin-bottom: 40px;
+  
+  }
+  
+  .main__btn {
+    all: unset;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 13px 14px;
+  }
+  
+  
+  
+  .btn__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--darkblue);
+    margin-right: 11px;
+    display: inline-block;
+  }
+
+ 
+
+@media screen and (max-width:576px) {
+  .main__title {
+    line-height: 100px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .main__title {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .main__title {
+    font-size: 3em;
+  }
+}
